@@ -6,12 +6,21 @@ without and with environmental variables and doing returns-to-scale tests.
 
 Installation from CRAN
 ---------------------
-The package will be soon published in the official R CRAN.
+The package can be installed from the official R CRAN by
+```R
+install.packages("rDEA")
+```
+Under Linux make sure you have GLPK installed before, e.g., in Ubuntu you need
+```bash
+sudo apt-get install libglpk-dev
+```
+Or if you need to compile GLPK set environmental variable `CPATH=/to/path/include/gplk` for installing.
 
 Installation from git
 --------------------
 
-Using **devtools** our package can be installed by
+Using **devtools** our package can be installed by (make sure you have
+**libglpk-dev** installed)
 ```R
 library(devtools)
 install_github("jaak-s/rDEA")
