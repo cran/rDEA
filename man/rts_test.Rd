@@ -11,7 +11,7 @@ rts.test(X, Y, W=NULL, model, H0, bw, B, alpha)
   \item{X}{a matrix of inputs for observations, for which DEA scores are estimated.}
   \item{Y}{a matrix of outputs for observations, for which DEA scores are estimated.}
   \item{W}{a matrix of input prices, not used.}
-  \item{model}{a string for the type of DEA model to be estimated, "input" for input-oriented, "output" for output-oriented model.}
+  \item{model}{a string for the type of DEA model to be estimated, "input" for input-oriented, "output" for output-oriented model, "costmin" for cost-minimization model.}
   \item{H0}{a string for the NULL hypothesis to be tested, "constant" for constant returns-to-scale, "non-increasing" for non-inscreasing returns-to-scale.}
   \item{bw}{a string for the type of bandwidth used as a smoothing parameter in sampling with reflection, "cv" or "bw.ucv" for cross-validation bandwidth, "silverman" or "bw.nrd0" for Silverman's (1986) rule.}
   \item{B}{an integer showing the number of bootstrap replications in constracting the test staticstics. Recommended is 100.}
@@ -51,6 +51,8 @@ Simar, L. and Wilson, P. 2011. Inference by the m out of n bootstrap in nonparam
 Besstremyannaya, G. 2011. Managerial performance and cost efficiency of Japanese local public hospitals. Health Economics. Vol.20(S1), pp.19--34.
 
 Besstremyannaya, G. 2013. The impact of Japanese hospital financing reform on hospital efficiency. Japanese Economic Review. Vol.64, No.3, pp.337--362.
+
+Besstremyannaya G., Simm J., Golovan S. 2014. Robust non-parametric estimation of cost efficiency with an application to banking industry. Working paper.
 }
 \author{Jaak Simm, Galina Besstremyannaya}
 \seealso{
@@ -66,11 +68,24 @@ X = hospitals[firms, c('labor', 'capital')]
 ## Returns-to-scale test in the input-oriented DEA model,
 ## Testing the null hypothesis of constant returns-to-scale
 ## vs. an alternative of variable returns-to-scale
-rts_di=rts.test(X=X, Y=Y, W=NULL, model="input", H0="constant",
+rts_input=rts.test(X=X, Y=Y, W=NULL, model="input", H0="constant",
                 bw="cv", B=100, alpha=0.05)
 
-rts_di$pvalue
-rts_di$H0reject
-rts_di$H0level
+rts_input$pvalue
+rts_input$H0reject
+rts_input$H0level
+
+
+## Test for cost-efficiency DEA model,
+## Testing the null hypothesis of constant returns-to-scale
+## vs. an alternative of variable returns-to-scale
+W = hospitals[firms, c('labor_price', 'capital_price')]
+
+rts_cost = rts.test(X=X, Y=Y, W=W, model="costmin", H0="constant",
+                    bw="cv", B=100, alpha=0.05)
+
+rts_cost$pvalue
+rts_cost$H0reject
+rts_cost$H0level
 }
 \keyword{DEA, non-parametric efficiency, technical efficiency, cost efficiency}
