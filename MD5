@@ -1,9 +1,9 @@
-c9f4433d81ebd677a1591989119479fe *DESCRIPTION
+4aa56a4eb8bee3f2e7906e791e4ea249 *DESCRIPTION
 c2b9d0a175f1936cd3816f81d6838b69 *NAMESPACE
 4bcfa90e0721f2dbe07454b367c1a16b *R/bootstrap_functions.R
 d4b39ae0e53f3ee9e1e23c5de5cec533 *R/bounds.R
 f1a6209be56503b40d292618c846396f *R/control.R
-5d0687a56f7fde2968aacedad0914d5b *R/dea.R
+2ebdd0bb7bdebbfc5185d436c71168a1 *R/dea.R
 87e925896a7e801ce6906ca3d70f2ed5 *R/dea.env.robust.R
 a5d124e546d75c7cfbdb602f4f3fc7d9 *R/dea.robust.R
 7c1d7836061d11a139e6dfedcee543de *R/multi_glpk_solve.R
@@ -14,11 +14,11 @@ bc585089f572f51fc8439e72960658ab *R/zzz.R
 1262f7a12fddb89ebbe29f58c04a1c00 *configure
 68b329da9893e34099c7d8ad5cb9c940 *configure.win
 279f1a4ad31a63de5ff301123fe0a4e8 *data/hospitals.RData
-b3a96480215565157a2795464d3cb64c *inst/CHANGELOG
+683195835a465eaf1dfb945339415af6 *inst/CHANGELOG
 6c71712e5a82b269893f7217de759ece *inst/tests/test-all.R
 ba0f11a0fc97acd5b15ee1ac4b410ca5 *inst/tests/testthat/test-bootstrap.r
 74961ac30d8b40e62a7738069715ee69 *inst/tests/testthat/test-dea.env.robust.r
-44141d6b9df28b26dcf38da052ba12f1 *inst/tests/testthat/test-dea.r
+eb7435ca8874901a0233385a3a24bcd3 *inst/tests/testthat/test-dea.r
 e8e256dada48547a444dd1f7bf3911ad *inst/tests/testthat/test-dea.robust.r
 a42d2a83eed64bab55caf296b5351d98 *inst/tests/testthat/test-glpk.r
 aa65d32f6bbc12888c3feabba421b58b *inst/tests/testthat/test-rts.test.r
