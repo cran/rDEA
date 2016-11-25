@@ -1,4 +1,4 @@
-4aa56a4eb8bee3f2e7906e791e4ea249 *DESCRIPTION
+c9dfb10dc11e732fc769c708cb6aacfe *DESCRIPTION
 c2b9d0a175f1936cd3816f81d6838b69 *NAMESPACE
 4bcfa90e0721f2dbe07454b367c1a16b *R/bootstrap_functions.R
 d4b39ae0e53f3ee9e1e23c5de5cec533 *R/bounds.R
@@ -14,7 +14,7 @@ bc585089f572f51fc8439e72960658ab *R/zzz.R
 1262f7a12fddb89ebbe29f58c04a1c00 *configure
 68b329da9893e34099c7d8ad5cb9c940 *configure.win
 279f1a4ad31a63de5ff301123fe0a4e8 *data/hospitals.RData
-683195835a465eaf1dfb945339415af6 *inst/CHANGELOG
+5d8a3f348923268d36ac4eb3022fe3a4 *inst/CHANGELOG
 6c71712e5a82b269893f7217de759ece *inst/tests/test-all.R
 ba0f11a0fc97acd5b15ee1ac4b410ca5 *inst/tests/testthat/test-bootstrap.r
 74961ac30d8b40e62a7738069715ee69 *inst/tests/testthat/test-dea.env.robust.r
@@ -30,7 +30,7 @@ f13b4d0f416fc4f212365279279d9a27 *man/dea_env_robust.Rd
 7b958a344a9263d2e8730e39fc949cfb *man/rts_test.Rd
 16928375c376f342565f9f81b85aff65 *src/Makevars.in
 82b5dfd7323f3bba9c092029c5ee25d7 *src/Makevars.win
-e6382fd48eb66012893e653c0d6e0d49 *src/multi_glp_solve.c
+dad1f0b78b3bb9015e72fdacd6fa1aed *src/multi_glp_solve.c
 251280352529c5efb066d41fa89e985e *src/rDEA.h
 cb8a9e593df535bfaa476b2f796aaf5a *src/rDEA_initialize.c
 f7cf67aa091ce25efb910b1d85b667ed *tests/run-testthat-rDEA.R
