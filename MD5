@@ -1,7 +1,8 @@
-9211ba8d092c47cc4b2a876209f22583 *DESCRIPTION
+502b4ef01483f1d0552f7f240589677a *DESCRIPTION
 de079b8f46243ae790a258bcce64a5d5 *NAMESPACE
+c2062f72cb17f1ef5c687951f7c92a92 *NEWS.md
 4bcfa90e0721f2dbe07454b367c1a16b *R/bootstrap_functions.R
-d4b39ae0e53f3ee9e1e23c5de5cec533 *R/bounds.R
+85e66bb8fb9ce11812629c0894732d8b *R/bounds.R
 f1a6209be56503b40d292618c846396f *R/control.R
 2ebdd0bb7bdebbfc5185d436c71168a1 *R/dea.R
 fe798495de98d827d47d022a197dde9f *R/dea.env.robust.R
@@ -32,6 +33,6 @@ aa65d32f6bbc12888c3feabba421b58b *inst/tests/testthat/test-rts.test.r
 82b5dfd7323f3bba9c092029c5ee25d7 *src/Makevars.win
 dad1f0b78b3bb9015e72fdacd6fa1aed *src/multi_glp_solve.c
 251280352529c5efb066d41fa89e985e *src/rDEA.h
-89cc1e507659e5dd02394679102a2af0 *src/rDEA_init.c
+f6327af9d03e40f03257ae8ac0843b27 *src/rDEA_init.c
 cb8a9e593df535bfaa476b2f796aaf5a *src/rDEA_initialize.c
 f7cf67aa091ce25efb910b1d85b667ed *tests/run-testthat-rDEA.R
