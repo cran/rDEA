@@ -1,11 +1,11 @@
-502b4ef01483f1d0552f7f240589677a *DESCRIPTION
+06013e43dcbe54eb675982d31035cf41 *DESCRIPTION
 de079b8f46243ae790a258bcce64a5d5 *NAMESPACE
-c2062f72cb17f1ef5c687951f7c92a92 *NEWS.md
+e46c4d7fca5c1fd69e02556f10ef8bc8 *NEWS.md
 4bcfa90e0721f2dbe07454b367c1a16b *R/bootstrap_functions.R
 85e66bb8fb9ce11812629c0894732d8b *R/bounds.R
 f1a6209be56503b40d292618c846396f *R/control.R
 2ebdd0bb7bdebbfc5185d436c71168a1 *R/dea.R
-fe798495de98d827d47d022a197dde9f *R/dea.env.robust.R
+6465f7a6249df508e1ae17decee647f3 *R/dea.env.robust.R
 a5d124e546d75c7cfbdb602f4f3fc7d9 *R/dea.robust.R
 7c1d7836061d11a139e6dfedcee543de *R/multi_glpk_solve.R
 8448bf681cc1baac4256d5dab8e95e0f *R/rts.test.R
